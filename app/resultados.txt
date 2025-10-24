@@ -1,0 +1,3 @@
+test_1.txt: Media=2221.38, Desvío=32.54609163644816
+test_2.txt: Media=2153.67, Desvío=2.3096416268426676
+test_3.txt: Media=2146.07, Desvío=25.279550165413482

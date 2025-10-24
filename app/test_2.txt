@@ -1,0 +1,9 @@
+TEST_2 es una forma de adquisición más precisa y más lenta que TEST_1.
+También es bloqueante, el CPU debe esperar mientras el ADC toma 16 muestras,
+las promedia, y devuelve el resultado.
+Se puede ver que tiene el desvío más bajo, pero que toma casi 4 veces más
+ticks completar el muestreo en comparación con TEST_1 y TEST_3.
+
+Test #2 starts
+Test #2 ends. Ticks: 118
+test_2.txt: Media=2153.67, Desvío=2.3096416268426676

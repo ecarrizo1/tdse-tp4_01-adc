@@ -1,0 +1,10 @@
+TEST_1 es el modo más directo de adquisición de datos.
+Toma los valores directamente mediante un polling al ADC.
+Es un método rápido pero bloqueante, ya que el CPU debe esperar hasta que
+el ADC termine de convertir los valores para mostrarlos. Además, no tiene
+mucha precisión, ya que tiene el mayor desvío estándar muestral.
+En el log del testeo se puede ver que tomó 31 ticks en completarse.
+
+Test #1 starts
+Test #1 ends. Ticks: 31
+test_1.txt: Media=2221.38, Desvío=32.54609163644816

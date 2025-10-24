@@ -8,6 +8,7 @@
 
 
 ## Test 1
+
 6. Volver al código y configurar el primer test, verificando la directiva `#define TEST_NUMBER` (línea 18 de `app.c`), es decir que diga `#define TEST_NUMBER TEST_1`.
 7. Compilar y debuggear. En la consola deben listarse 100 muestras.
 8. Obtener la media y el desvío estándar. Se puede usar cualquier herramienta, por ejemplo Excel, GCalc, [We Do Data Science](https://www.wedodatascience.com), ...

@@ -1,0 +1,9 @@
+El código tiene tres implementaciones distintas para tomar muestras de un 
+conversor ADC.
+Gracias al uso de los pares #if #endif solo se compila uno de los métodos, 
+según se defina en el macro  TEST_NUMBER.
+Los primeros 2 métodos son bloqueantes, es decir que el CPU se mantiene 
+ocupado durante la conversión. El tercero, sin embargo, es no bloqueante.
+Además, se nota una fuerte diferencia de tiempos en el procesamiento, ya
+que el segundo método toma cuatro veces más ticks que los demás a cambio 
+de ofrecer mayor precisión en sus lecturas.

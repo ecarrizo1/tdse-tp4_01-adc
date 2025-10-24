@@ -1,0 +1,10 @@
+TEST_3 es el método más complejo. Ofrece un alto desvío (menor que TEST_1),
+aunque tiene la ventaja de ser NO bloqueante, ya que utiliza interrupciones.
+El CPU llama al ADC, y mientras este convierte los valores, puede destinarse
+a otra tarea. Cuando el conversor termina, interrumpe al procesador, que
+almacena la muestra en un arreglo.
+Al finalizar, se muestran todos los valores juntos, con un for.
+
+Test #3 starts
+Test #3 ends. Ticks: 31
+test_3.txt: Media=2146.07, Desvío=25.279550165413482
